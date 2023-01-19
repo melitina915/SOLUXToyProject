@@ -30,7 +30,6 @@ h5{
 h5:hover{
     color:rgba(130, 141, 241, 0.866)
 }
-
 .menu_card{
     text-align: center;
     width: 1000px;
@@ -49,7 +48,7 @@ h5:hover{
 }
 .cardA{
     width: 1000px;
-    height: 800px;
+    height: 1500px;
     margin: 50px auto;
     box-shadow: 3px 3px 50px #e6e6e6;
     border-radius: 20px;
@@ -234,26 +233,36 @@ ul.number{
     margin-left: 30px;
 }
 
-.card-apply input, textarea{
+/*.card-apply input, textarea{y
     margin-left: 10px;
     padding: 10px;
     border: 1px solid #999;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #e6e6e6;
-}
+}*/
 
 .card-apply textarea{
     vertical-align: top;
-    min-width: 85%;
-    max-width:85%;
+    min-width: 90%;
+    max-width:90%;
     height: 200px;
-}
+    margin-left: 28px;
+    padding: 15px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #e6e6e6;
+    box-shadow: inset 3px 3px 10px #e6e6e6;
 
+}
+.card-apply div{
+    margin: 10px;
+    margin-bottom:40px;
+}
 .cardA .card-header{
     text-align: center;
     padding: 30px;
 }
-
+d-apply
 .card-view{
     text-align: center;
     padding: 30px;
@@ -290,6 +299,19 @@ ul.number{
     border: none;
     position: absolute;
     right: 110px;
+    bottom: 45px;
+    background-color: rgba(140, 151, 251, 0.671);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 5px 10px rgb(186, 184, 184);
+}
+
+.cardA .btn22{
+    border: none;
+    position: absolute;
+    right: 460px;
     bottom: 45px;
     background-color: rgba(140, 151, 251, 0.671);
     border-radius: 10px;
