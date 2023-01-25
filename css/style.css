@@ -30,6 +30,7 @@ h5{
 h5:hover{
     color:rgba(130, 141, 241, 0.866)
 }
+
 .menu_card{
     text-align: center;
     width: 1000px;
@@ -233,13 +234,14 @@ ul.number{
     margin-left: 30px;
 }
 
-/*.card-apply input, textarea{y
+/*.card-apply input, textarea{
     margin-left: 10px;
     padding: 10px;
     border: 1px solid #999;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #e6e6e6;
 }*/
+
 
 .card-apply textarea{
     vertical-align: top;
@@ -262,7 +264,7 @@ ul.number{
     text-align: center;
     padding: 30px;
 }
-d-apply
+
 .card-view{
     text-align: center;
     padding: 30px;
@@ -307,7 +309,6 @@ d-apply
     padding-right: 15px;
     box-shadow: 0 5px 10px rgb(186, 184, 184);
 }
-
 .cardA .btn22{
     border: none;
     position: absolute;
