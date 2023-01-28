@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
     font-family: 'Noto Sans KR', 'sans-serif';
@@ -6,9 +5,17 @@
     font-family: 'Noto Sans KR', 'sans-serif';
 }
 
+.logo{
+    display: block;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a{
     color: inherit;
     text-decoration: none;
+    margin: 10px
 }
 
 title{
@@ -19,11 +26,6 @@ title{
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-img{
-    margin-left: 43%;
-    margin-bottom: 15px;
 }
 
 html {
@@ -82,21 +84,22 @@ html {
     margin-bottom: 40px;
     
 }
+
 .buttonimg{
     margin-top: 5px;
     margin-left: 80px;
     background-color: rgba(130, 141, 241, 0.866);
-    color:#fffdfd;
-    font-size: 15px;
+    color:#ffffff;
+    font-size: 16px;
     padding: 10px 10px;
     border-radius: 5px;
     border:none;
+    box-shadow: 0 5px 10px rgb(186, 184, 184);
 }
-
 
 .infoname, .infosex,.infoid, .infoemail, .infodate{
     padding: 15px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     border-radius: 20px;
     border-color: #b1b1b1;
@@ -104,11 +107,11 @@ html {
     border: 1px solid rgb(209, 209, 209);
 
 }
+
 .card-body{
     padding: 20px;
     text-align: center;
 }
-
 
 
 h5{
@@ -145,8 +148,9 @@ h5:hover{
 
 .button{
     background-color: rgba(130, 141, 241, 0.866);
-    color:#fffdfd;
-    font-size: 20px;
+    box-shadow: 0 5px 10px rgb(186, 184, 184);
+    color: #ffffff;
+    font-size: 16px;
     margin: 20px;
     padding: 10px 10px;
     border-radius: 5px;
@@ -154,7 +158,15 @@ h5:hover{
 
 }
 
-
-a{
-    margin: 10px;
+.buttonimg{
+    margin-top: 5px;
+    margin-left: 80px;
+    background-color: rgba(130, 141, 241, 0.866);
+    box-shadow: 0 5px 10px rgb(186, 184, 184);
+    color: #ffffff;
+    font-size: 16px;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border:none;
 }
