@@ -111,9 +111,12 @@ input{
 
 button{
     height: 35px;
-    background-color:rgba(202, 206, 243, 0.671);
+    background-color: rgba(130, 141, 241, 0.866);
+    box-shadow: 0 5px 10px rgb(186, 184, 184);
     border:none;
-    color:#272727;
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 5px;
     font-size:15px; 
 }
 
