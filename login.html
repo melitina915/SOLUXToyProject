@@ -4,21 +4,23 @@
         <title>로그인</title>
         <meta charset="utf-8">
         <link rel = "stylesheet" href="login.css">
+        <script src="login.js"></script>
     </head>
 
     <body>
         <div class = "login">
-            <img src="solux_logo.jpg" alt="My Image" width="75" height="50">
+            <a href="board.html"><img src="solux_logo.jpg" alt="My Image" width="90" height="60">
+            </a>
             <form>
                 <input type = "text" name ="email" class ="text-field" placeholder="아이디">
                 <input type = "text" name = "password" class="text-field" placeholder="비밀번호">
-                <input type = "submit" value="로그인" class="submit">
+                <button  type="button" class= "submit" onClick="location.href='mypage.html'">로그인</button>
             </form>
         </div>
 
         <div class = "guess">
-            <a href="#">비밀번호 찾기</a>
-            <a href = "signup.html">회원가입</a>
+            <h5 class="one"><a href="#">비밀번호 찾기</a></h5>
+            <h5><a href = "signup.html">회원가입</a></h5>
         </div>
     </body>
 </html>
