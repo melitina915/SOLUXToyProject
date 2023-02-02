@@ -78,7 +78,7 @@ html {
     box-sizing: border-box;
 }
 
-.infoimg{
+#infoimg{
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -87,15 +87,16 @@ html {
 
 .buttonimg{
     margin-top: 5px;
-    margin-left: 80px;
+    margin-left: 57px;
     background-color: rgba(130, 141, 241, 0.866);
-    color:#ffffff;
-    font-size: 16px;
+    box-shadow: 0 5px 10px rgb(186, 184, 184);
+    color: #ffffff;
+    font-size: 15px;
     padding: 10px 10px;
     border-radius: 5px;
     border:none;
-    box-shadow: 0 5px 10px rgb(186, 184, 184);
 }
+
 
 .infoname, .infosex,.infoid, .infoemail, .infodate{
     padding: 15px;
@@ -158,15 +159,3 @@ h5:hover{
 
 }
 
-.buttonimg{
-    margin-top: 5px;
-    margin-left: 80px;
-    background-color: rgba(130, 141, 241, 0.866);
-    box-shadow: 0 5px 10px rgb(186, 184, 184);
-    color: #ffffff;
-    font-size: 16px;
-    font-size: 15px;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border:none;
-}
