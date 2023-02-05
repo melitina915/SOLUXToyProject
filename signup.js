@@ -156,6 +156,7 @@ if(check){
   document.getElementById("areaError").innerHTML=""
   document.getElementById("genderError").innerHTML=""
   
+  location.href='signupdone.html';
   //비동기 처리이벤트
   setTimeout(function() {
     alert("가입이 완료되었습니다.")
