@@ -196,6 +196,25 @@ ul.number{
     box-shadow: 0 5px 10px rgb(186, 184, 184);
 }
 
+.btnB{
+    position: absolute;
+    top:0;
+    right:0;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.btnB a{
+    background-color: rgba(140, 151, 251, 0.671);
+    font-weight: 540;
+    line-height: 90px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0 5px 10px rgb(186, 184, 184);
+}
 .card .card-header{
     padding: 20px;
     text-align: center;
